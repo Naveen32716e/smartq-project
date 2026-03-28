@@ -1,0 +1,52 @@
+.time-chip {
+  background: #f4f5ff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.stat-card {
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  border-left: 5px solid;
+  text-align: center;
+}
+
+.stat-card.waiting {
+  border-color: orange;
+}
+
+.stat-card.serving {
+  border-color: blue;
+}
+
+.stat-card.done {
+  border-color: green;
+}
+.time-chip {
+  background: #f4f5ff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.stat-card {
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  border-left: 5px solid;
+  text-align: center;
+}
+
+.stat-card.waiting {
+  border-color: orange;
+}
+
+.stat-card.serving {
+  border-color: blue;
+}
+
+.stat-card.done {
+  border-color: green;
+}

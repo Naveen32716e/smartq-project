@@ -1,0 +1,73 @@
+.register-card {
+  background: linear-gradient(180deg, #5a4bff, #6c4bff);
+  border-radius: 15px;
+}
+
+.register-card input,
+.register-card select {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+}
+
+.register-card input::placeholder {
+  color: #eee;
+}
+
+.register-card label {
+  color: #ddd;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.provider-box {
+  border-radius: 12px;
+  border: 1px solid #eee;
+  background: white;
+  transition: 0.3s;
+}
+
+.provider-box:hover {
+  transform: scale(1.02);
+}
+.register-card {
+  background: linear-gradient(180deg, #5a4bff, #6c4bff);
+  border-radius: 15px;
+  color: white;
+}
+
+.register-card input,
+.register-card select {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+}
+
+.provider-box {
+  border-radius: 12px;
+  border: 1px solid #eee;
+  background: white;
+}
+.register-card {
+  background: linear-gradient(180deg, #5a4bff, #6c4bff);
+  border-radius: 15px;
+  color: white;
+}
+
+.register-card input,
+.register-card select {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+}
+
+.provider-box {
+  border-radius: 12px;
+  border: 1px solid #eee;
+  background: white;
+  transition: 0.3s;
+}
+
+.provider-box:hover {
+  transform: scale(1.02);
+}

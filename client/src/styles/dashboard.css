@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Container */
+.container {
+  padding: 30px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+/* Stats */
+.stat-card {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.waiting { background: #fff3cd; }
+.serving { background: #cce5ff; }
+.done { background: #d4edda; }
+
+/* Table */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+}
+
+.active-btn {
+  background: #5b3df5;
+  color: white;
+}
+
+.provider {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.provider.active {
+  border: 2px solid #5b3df5;
+}
+
+.stat-box {
+  flex: 1;
+  background: #f1f3f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  flex: 1;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.join-btn {
+  width: 100%;
+  padding: 12px;
+  background: #5b3df5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+}
